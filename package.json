@@ -1,0 +1,13 @@
+{
+  "name": "umcp-protocol",
+  "version": "0.1.0",
+  "description": "Unified Memory Context Protocol — monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=packages/core",
+    "dev": "npm run dev --workspace=packages/core"
+  }
+}
